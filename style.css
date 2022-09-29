@@ -93,3 +93,35 @@ body {
     flex: auto;
     gap: 16px;
 }
+
+.title {
+    font-size: 38px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+    margin: 48px;
+}
+
+.info-square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    background-color: #F9FAF8;
+    border: 6px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: auto;
+    gap: 16px;
+}
