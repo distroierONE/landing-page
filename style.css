@@ -1,0 +1,95 @@
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+h4 {
+    size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    align-self: center;
+    flex: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1F2937;
+    flex: auto;
+}
+
+.head-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: auto;
+    padding: 224px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    flex: auto;
+    gap: 24px;
+}
+
+.image-head {
+    width: 700px;
+    height: 300px
+}
+
+.sign-up {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 0px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    align-self: left;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: auto;
+    padding: 24px;
+    padding-left: 224px;
+    padding-right: 224px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex: auto;
+    gap: 16px;
+}
