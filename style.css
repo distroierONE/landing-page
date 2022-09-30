@@ -104,24 +104,37 @@ body {
 
 .info-square {
     width: 200px;
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .square {
     width: 150px;
     height: 150px;
-    border-radius: 8px;
+    border-style: solid;
     border-color: #3882F6;
-    background-color: #F9FAF8;
-    border: 6px;
+    border-radius: 8px;
+    border-width: 6px;
 }
 
 .images {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex: auto;
     gap: 16px;
+}
+
+.square-text {
+    text-align: center;
+    color: #1F2937;
+}
+
+.square-image {
+    width: 150px;
+    height: 150px;
 }
